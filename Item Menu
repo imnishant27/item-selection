@@ -1,0 +1,29 @@
+ #include<stdio.h>
+ #include<conio.h>
+ int main()
+ {
+ 	int choice;
+ 	printf("Pick any no. between 1 and 5 \n ");
+ 	scanf("%d",&choice);
+ 	switch(choice)
+    {
+		case 1:
+		printf("Item Name: Sandwich \nItem Price: 50/- ");
+		break;
+		case 2:
+		printf("Item Name: Idli Sambhar \nItem Price: 150/-");
+		break;
+		case 3:
+		printf("Item Name: Fried Rice with Masala Paneer \nItem Price: 250/-");
+		break;
+		case 4:
+		printf("Item Name: Samosa with chole\nItem Price: 25/-");
+		break;
+		case 5:
+		printf("Item Name: Momos with schezwan \nItem Price: 80/-");
+		break;
+	    default:
+		printf("Invalid Input");
+    }
+    return 0;
+ }
